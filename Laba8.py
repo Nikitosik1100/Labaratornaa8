@@ -5,19 +5,19 @@ from random import*
 
 
 f = open('laba4.txt','w+') 
-what = [(randint(1, 1000)) for i in range(10)]
+what = [(randint(1, 100)) for i in range(10)]
 for i in what:
     f.write(str(i) + ' ')
 f = open('laba4.txt','r')
 
 f1 = open('laba4,1.txt','w+')
-what = [(randint(1, 1000)) for i in range(10)]
+what = [(randint(1, 100)) for i in range(10)]
 for i in what:
     f1.write(str(i) + ' ')
 f1 = open('laba4.txt','r')
 
 f2 = open('laba4,2.txt','w+')
-what = [(randint(1, 1000)) for i in range(10)]
+what = [(randint(1, 100)) for i in range(10)]
 for i in what:
     f2.write(str(i) + ' ')
 f2 = open('laba4.txt','r')
